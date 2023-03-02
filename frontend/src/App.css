@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&family=Lobster&family=Pacifico&family=Roboto:ital,wght@1,700&family=Vibur&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.homeName{
+  position: absolute;
+  top: 70px;
+  left: 40px;
+  font-family: 'Lobster', cursive;
+  font-size: 100px;
+  color: rgb(47, 241, 241);
+  text-shadow: 1px 9px 3px#282c34;
+
+}
+.link-color1{
+  position: absolute;
+  top: 70px;
+  right: 150px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: rgb(2, 34, 34);
+  background-color: #61dafb;
+  
+}
+.link-color{
+  position: absolute;
+  top: 70px;
+  right: 40px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: rgb(2, 34, 34);
+  background-color: #61dafb;
+  
+}
+.link-color:hover{
+  background-color: yellow;
+}
+.link-color1:hover{
+  background-color: yellow;
+}
+
+
